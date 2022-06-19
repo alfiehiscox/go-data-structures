@@ -3,22 +3,22 @@ package list
 // Structure: Linked List
 // Description: Contains Nodes. Each node holds data and a reference to another list node.
 // Functions: 
-// 		- Insert onto the end of list
-//		- Insert at a certain index
-// 		- Print the entire list
-// 		- Search for index of specific value
-//    - Return a node from a given index
-// 		- Delete node from list given index
-// 		- Delete node from list given value
+// 	- Insert onto the end of list
+//	- Insert at a certain index
+// 	- Print the entire list
+// 	- Search for index of specific value
+// 	- Return a node from a given index
+// 	- Delete node from list given index
+// 	- Delete node from list given value
 
 type Node struct {
-	value		int
-	next 		*Node
+	value	int
+	next 	*Node
 }
 
 type LinkedList struct {
-	head 		*Node
-	len 		int
+	head 	*Node
+	len 	int
 }
 
 // Insert onto the end of list
